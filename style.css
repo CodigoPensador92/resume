@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap');
+
+* {
+    margin: 5px;
+    padding: 0;
+}
+
+h2, h3, h4{
+    padding-bottom: 10px;
+}
+
+body {
+    background-color:rgb(163, 163, 230);
+    font-family:'Bona Nova', sans-serif ;
+    font-size: 14px;
+    font-weight:normal;
+    line-height: 15px;
+    letter-spacing: 1px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 20px;
+    width: 50%;
+}
+
+#avatar {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.35);
+    border-radius: 20px; 
+}
+
+.card {
+    padding: 10px;
+}
+
+a {
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+    margin: 0;
+}
+
+a:hover {
+    color: rgb(0, 106, 255);
+}
+
+a:visited {
+    color: black;
+}
+
+#socialmedia {
+    background-color: #7B68EE;
+    padding: 15px;
+    word-spacing: 7px;
+    border-radius: 20px; 
+}
+
+.job {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%; /* Ширина таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+}
+
+#about{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.socialmedialinks {
+    color: white;
+}
+
+.job td {
+    text-align: center; /* Выравниваем текст по центру ячейки */
+    padding-bottom: 2px;
+    border: 1px solid;
+}
+
+.job tr {
+    text-align: center;
+    border: 1px solid;
+}
+
+.btn {
+    background: #fff;
+    padding: 10px;
+    margin: 0px;
+    margin-left: 50%;
+    border-radius: 20px;
+    border: none;
+    color:rgba(107, 0, 86, 0.868);
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+h4 {
+    text-align:  center;
+}
+
+.articles {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hobby {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hobby li {
+    margin-bottom: 8px;
+    border-bottom: 1px solid rgb(144, 0, 255);
+}
+
+#header {
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items: center;
+}
